@@ -4,7 +4,7 @@ from torch.utils.data import Dataset, DataLoader
 
 
 def deal_tangshi():
-    with open("tangshi.txt", "r", encoding="utf-8") as fr:
+    with open("tangshis.txt", "r", encoding="utf-8") as fr:
         lines = fr.read().strip().split("\n")
 
     tangshis = []
